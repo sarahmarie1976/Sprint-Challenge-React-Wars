@@ -1,0 +1,17 @@
+What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React is a JS library for building user interfaces. It was built by Facebook to help solve some of their major problems that the team was facing when dealing with complex components (state). React is not a framework but it is a library that does one thing really well which is rendering the UI. The main problem react solved was the development of large applications that have temporal data changes which allows data to change over time.
+
+Describe component state.
+
+The heart of every React component is its “state”, an object that determines how that component renders & behaves. In other words, “state” is what allows you to create components that are dynamic and interactive
+
+Describe props.
+
+Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another. But the important part here is that data with props are being passed in a uni-directional flow
+
+What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipulating the DOM are all examples of side effects. There are two categories of side effects in React components - those that don’t require cleanup and those that do require cleanup. 
+
+To use a side effect you would attach it like you would useState. example: import React, { useState, useEffect } from "react";
